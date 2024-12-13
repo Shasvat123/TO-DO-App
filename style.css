@@ -1,0 +1,132 @@
+/* General reset and styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Container styling */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: green; /* Background color for the whole app */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: pink;
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Box styling */
+.box {
+    width: 700px;
+    height: auto;
+    border: 2px solid black;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for the box */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+/* Contain section styling */
+.contain {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* Input field styling */
+.inp {
+    align-items: center;
+    width: 70%;
+    height: 50px;
+    font-size: 1rem;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px;
+}
+
+/* Label styling */
+.lab {
+    margin-bottom: 10px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Button styling */
+.button {
+    color: white;
+    background-color: green;
+    width: 80px;
+    height: 50px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: red;
+}
+
+/* List container styling */
+#list-container {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+/* Individual list item styling */
+#list-container li {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+/* Completed tasks styling */
+#list-container li.completed {
+    background-color: lightgray;
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Delete button styling */
+.del-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.del-btn:hover {
+    background-color: darkred;
+}
